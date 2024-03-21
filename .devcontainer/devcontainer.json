@@ -1,0 +1,23 @@
+{
+  "name": "Go Development",
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": "."
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.go",
+        "GitHub.copilot",
+        "GitHub.copilot-chat"
+      ]
+      }  
+  }, 
+  "containerEnv": {
+  },
+  "postCreateCommand": "",
+  "postStartCommand": "",
+  "forwardPorts": [8080]
+}
+
+  
